@@ -1,0 +1,9 @@
+sudo python3 caesar.py "criptografia y seguridad en redes" 9 
+
+
+sudo python3 stealth_ping.py "larycxpajorj h bnpdarmjm nw anmnb"
+
+
+python3 bruteforce_caesar.py
+
+

@@ -1,0 +1,7 @@
+clave
+key
+contraseña
+pass
+hola
+letmein
+password

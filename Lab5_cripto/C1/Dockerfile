@@ -1,0 +1,12 @@
+# Dockerfile.c1
+FROM ubuntu:16.10
+
+# Actualizar repositorios a old-releases
+RUN sed -i -e 's/archive.ubuntu.com/old-releases.ubuntu.com/g' \
+           -e 's/security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+
+# Instalar cliente SSH y tcpdump (para capturar trÃ¡fico)
+RUN apt-get update && \
+    apt-get install -y openssh-client tcpdump
+
+CMD ["bash"]
